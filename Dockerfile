@@ -11,6 +11,8 @@ RUN npm install
 
 COPY . .
 
+ARG VITE_API_KEY
+ENV VITE_API_KEY=$VITE_API_KEY
 RUN npm run build
 
 CMD ["node", "index.cjs"]
