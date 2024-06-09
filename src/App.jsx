@@ -9,7 +9,7 @@ function App() {
     event.preventDefault();
     const location = event.target.elements.location.value;
     setLoading(true);
-    fetch(`http://api.weatherapi.com/v1/current.json?key=${
+    fetch(`https://api.weatherapi.com/v1/current.json?key=${
       import.meta.env.VITE_API_KEY
     }&q=${location}&aqi=no
     `)
