@@ -1,8 +1,9 @@
-# React + Vite
+## Description
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hosted live on a VPS server at [http://162.254.86.65/](http://162.254.86.65/)
 
-Currently, two official plugins are available:
+Images hosted at [https://hub.docker.com/r/aleksaed/weather](https://hub.docker.com/r/aleksaed/weather)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+###
+
+This project uses React in combination with Vite to handle UI and state for users. Users can type the location for which they would like to receive current weather information. Node in combination with Express is used to serve static files built by Vite.
