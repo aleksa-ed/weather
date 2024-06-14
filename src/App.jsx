@@ -56,7 +56,7 @@ function App() {
         <div className="card">
           <p>Enter location for which you would like weather info:</p>
           <form onSubmit={getWeather}>
-            <input name="location" />
+            <input name="location" defaultValue="Helsinki" />
             <button type="submit">Get weather</button>
           </form>
         </div>
